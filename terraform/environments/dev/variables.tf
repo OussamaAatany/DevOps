@@ -1,25 +1,27 @@
+// still waitin' my azure
 variable "location" {
-  description = "Azure location"
+  description = "Azure location" 
   type        = string
 }
 
+// probably will be an project that still looking for a problem so i can find a solution so i name it
 variable "name" {
   description = "Environment/project name"
   type        = string
 }
 
 variable "resource_group_name" {
-  description = "Azure resource group name"
+  description = "Azure rc group name"
   type        = string
 }
 
 variable "address_space" {
-  description = "VNet address space"
+  description = "VNet addr space"
   type        = list(string)
 }
 
 variable "subnet_prefixes" {
-  description = "Subnet prefixes"
+  description = "Subnet prfx"
   type        = list(string)
 }
 
